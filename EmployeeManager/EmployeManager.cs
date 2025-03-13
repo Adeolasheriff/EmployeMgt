@@ -72,7 +72,7 @@ namespace EmployeeManagers
 
                 connection.Open();
                 int rowsAffected = command.ExecuteNonQuery();
-                Console.WriteLine(rowsAffected > 0 ? "Employee deleted successfully." : "Error deleting employee.");
+                Console.WriteLine(rowsAffected > 0 ? "Employee deleted successfullyy." : "Error deleting employee.");
             }
         }
 
